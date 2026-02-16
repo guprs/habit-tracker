@@ -1,16 +1,76 @@
-# React + Vite
+# 🧠 Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Habit Tracker built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+This project was developed as part of my React learning journey to strengthen my understanding of core concepts such as component structure, state management, side effects, and conditional rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application allows users to create habits, track daily progress, and visualize overall completion in a clean and responsive interface.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Create new habits with a daily goal  
+- Increment and decrement progress  
+- Delete habits  
+- Global progress bar based on total accumulated progress  
+- Data persistence using `localStorage`  
+- Responsive UI built with Tailwind CSS  
+- Instant UI updates using React state  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- React (Vite setup)  
+- JavaScript (ES6+)  
+- Tailwind CSS  
+- Web Local Storage API  
+
+---
+
+## 🧩 React Concepts Practiced
+
+- Functional components  
+- Props and prop drilling  
+- `useState` for state management  
+- `useEffect` for side effects and persistence  
+- Conditional rendering  
+- Array methods such as `map`, `filter`, and `reduce`  
+- Dynamic styling with conditional Tailwind classes  
+
+---
+
+## 🎯 What I Learned
+
+Through building this project, I strengthened my ability to:
+
+- Manage dynamic state updates in React  
+- Pass data and functions between components  
+- Structure small React applications with clear component separation  
+- Persist data using the browser's localStorage  
+- Debug common frontend issues (rendering bugs, state errors, typos, etc.)  
+- Improve UI structure using Flexbox and Tailwind CSS  
+
+This project helped me gain more confidence in building interactive React applications from scratch.
+
+---
+
+## 👨‍💻 About the Author
+
+Built by **Gustavo Ribeiro** — Junior Frontend Developer in progress 🚀  
+
+I am currently focused on strengthening my foundation in React and modern frontend development while building practical projects to grow as a professional developer.
+
+📬 Connect with me:  
+LinkedIn: https://www.linkedin.com/in/guprs/  
+Email: guprs.tech@gmail.com 
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/habit-tracker.git
