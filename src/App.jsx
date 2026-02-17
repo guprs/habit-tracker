@@ -32,6 +32,11 @@ function App() {
     setHabits((prev) => prev.filter((habit) => habit.id !== id));
   };
 
+  //clear all habits
+  const resetHabits = () => {
+    setHabits([]);
+  };
+
   //increase
   const incrementHabit = (id) => {
     setHabits((prev) =>
@@ -64,20 +69,24 @@ return (
 
       <ProgressAction habits={habits} />
 
-      <HabitList
-        habits={habits}
-        incrementHabit={incrementHabit}
-        decrementHabit={decrementHabit}
-        removeHabit={removeHabit}
-      />
+      <div className="space-y-6">
 
+        <HabitList
+          habits={habits}
+          incrementHabit={incrementHabit}
+          decrementHabit={decrementHabit}
+          removeHabit={removeHabit}
+        />
+
+        {habits.length > 0 && (
+          <div className="flex justify-center">
+            <button onClick={resetHabits} className="bg-red-400 hover:bg-red-500 text-white px-6 py-2 rounded-lg transition">Reset List</button>
+          </div>
+        )}
+      </div>
     </div>
   </div>
 );
 } 
-
-<h1 className="text-5xl text-red-500 font-bold">
-  Tailwind Funcionando 🚀
-</h1>
 
 export default App;
